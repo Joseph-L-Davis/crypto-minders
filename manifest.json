@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "Crypto-Minders",
+    "description": "Alerts users when specified coins hit specified price",
+    "version": "1.0",
+    "browser_action": {
+        "default_icon": "ICON.png",
+        "default_popup": "popup.html"
+    }
+}
