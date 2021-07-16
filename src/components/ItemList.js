@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 import React from 'react';
 import { Item } from './Item';
-import './Itemlist.css';
+import './ItemList.css';
 
 export function ItemList(results) {
   if(!results.results.results.length){
