@@ -1,5 +1,5 @@
 import React from 'react';
-import { ItemList } from './ItemList.jsx';
+import { ItemList } from './ItemList.js';
 
 export function Body(results) {
 
