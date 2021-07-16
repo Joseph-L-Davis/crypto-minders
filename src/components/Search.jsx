@@ -1,5 +1,5 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable max-len */
-import { ItemList } from './ItemList';
 import React from 'react';
 import { useState } from 'react';
 // import { link } from 'react-dom';
