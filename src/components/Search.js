@@ -25,7 +25,7 @@ export function Search({ onSearch }) {
 
   return (
     <header className="header">
-      <h1>SCRAPE APE</h1>
+      <h1>MARKET SCRAPE</h1>
       <form onSubmit={handleSubmit}>
         <div className="inputs">
           <input type="text" className="searchTerm" placeholder="Search" onChange={handleSearchChange}/>
