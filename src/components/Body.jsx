@@ -4,6 +4,8 @@ import { ItemList } from './ItemList';
 export function Body(results) {
 
   return (
-    <ItemList results={results}/>
+    <div className="body">
+      <ItemList results={results}/>
+    </div>
   );
 }

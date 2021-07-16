@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
+import './Items.css';
 
 
 
@@ -15,7 +16,7 @@ export function Item({ result: {
       <h2>{title}</h2>
       <img src={image} alt={title} />
       <h3>{price}</h3>
-      <h3>{link}</h3>
+      <a href={link}>Click to view post</a>
     </li>
   );
 }
